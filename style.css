@@ -1,5 +1,5 @@
-body{
-    overflow:hidden;
+body {
+    overflow-x: hidden;
 }
 
 
@@ -7,11 +7,11 @@ body{
     background: rgba(229, 84, 115, 0.10);
     width: 1920px;
     height: 850px;
-    display:flex;
+    display: flex;
     justify-content: space-around;
-    margin:0px;
-    
-    
+    margin-bottom: 178px;
+
+
 
 }
 
@@ -46,15 +46,69 @@ body{
     line-height: normal;
 }
 
-.header-1{
-    padding-top:197px;
-    padding-left:240px;
-    padding-bottom:147px;
+.header-1 {
+    padding-top: 197px;
+    padding-left: 240px;
+    padding-bottom: 147px;
 
 }
 
-.image{
-    padding-right:240px;
-    padding-top:50px;
+.image {
+    padding-right: 240px;
+    padding-top: 50px;
 }
 
+.feature {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+
+}
+
+.feature-para {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+
+.flower-vases{
+    display:flex;
+    justify-content: center;
+    margin-left:240px;
+    margin-right:240px;
+}
+
+.first{
+    padding:110px 78px 0px 76px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    margin-bottom:0px;
+}
+
+.second{
+    margin-left:24px;
+    padding:117px 47px 51px 47px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.third{
+    margin-left:24px;
+    padding:67px 75px 0px 75px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+
+}
+
+.featured{
+    margin-bottom:128px;
+    margin-left:240px;
+    margin-right:240px;
+}
