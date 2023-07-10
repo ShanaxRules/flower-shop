@@ -122,7 +122,7 @@ body {
 }
 
 #first-header2 {
-    
+
     color: #272727;
     font-family: Lato;
     font-size: 40px;
@@ -133,7 +133,7 @@ body {
 
 #first-para2 {
     color: rgba(39, 39, 39, 0.60);
-    
+
     font-family: Lato;
     font-size: 18px;
     font-style: normal;
@@ -142,9 +142,46 @@ body {
 }
 
 
-.impo{
+.impo {
     padding: 100px 429px 100px 395px;
-    display:flex;
-    justify-content:center;
+    display: flex;
+    justify-content: center;
 }
 
+.header-rules {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+
+}
+
+.para-rules {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+.instagram{
+
+    margin-bottom:128px;
+}
+
+.img-container{
+    margin-left:240px;
+    margin-right:240px;
+    display:flex;
+    justify-content: center;
+
+}
+
+.pic1{
+    margin-right:24px;
+}
