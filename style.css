@@ -169,19 +169,47 @@ body {
 }
 
 
-.instagram{
+.instagram {
 
-    margin-bottom:128px;
+    margin-bottom: 128px;
 }
 
-.img-container{
-    margin-left:240px;
-    margin-right:240px;
-    display:flex;
+.img-container {
+    margin-left: 240px;
+    margin-right: 240px;
+    display: flex;
     justify-content: center;
 
 }
 
-.pic1{
-    margin-right:24px;
+.pic1 {
+    margin-right: 24px;
+}
+
+.subscribe {
+    width: 1440px;
+    height: 449px;
+    margin-bottom: 128px;
+    margin-left: 186px;
+
+    background-image: url(Rectangle\ 9.png);
+
+}
+
+.sub-container {
+    padding: 122px 287px 121px 287px;
+}
+
+input[type=email] {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    border:2px solid #E55473;
+    padding-left:5px;
+}
+
+.form{
+    display:flex;
+    gap:16px;
 }
