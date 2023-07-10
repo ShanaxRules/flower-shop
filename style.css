@@ -1,5 +1,6 @@
 body {
     overflow-x: hidden;
+    font-family: 'Manrope', sans-serif;
 }
 
 
@@ -17,16 +18,17 @@ body {
 
 #first-header {
     color: #272727;
-    font-family: Lato;
+    
     font-size: 80px;
     font-style: normal;
     font-weight: 800;
+    margin-bottom:0px;
 
 }
 
 #first-para {
     color: rgba(39, 39, 39, 0.60);
-    font-family: Lato;
+    
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -61,7 +63,7 @@ body {
 .feature {
     color: #272727;
     text-align: center;
-    font-family: Lato;
+    
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
@@ -71,7 +73,7 @@ body {
 .feature-para {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-family: Lato;
+   
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -124,7 +126,7 @@ body {
 #first-header2 {
 
     color: #272727;
-    font-family: Lato;
+    
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
@@ -134,7 +136,7 @@ body {
 #first-para2 {
     color: rgba(39, 39, 39, 0.60);
 
-    font-family: Lato;
+   
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -151,7 +153,7 @@ body {
 .header-rules {
     color: #272727;
     text-align: center;
-    font-family: Lato;
+    
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
@@ -161,7 +163,7 @@ body {
 .para-rules {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-family: Lato;
+   
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -224,7 +226,7 @@ footer {
 .footerlabel {
     text-align: center;
     color: #E55473;
-    font-family: Lato;
+    
     font-size: 48px;
     font-style: normal;
     font-weight: 800;
@@ -234,7 +236,7 @@ footer {
 .footerpara {
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
-    font-family: Lato;
+    
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -244,7 +246,7 @@ footer {
 .footercopy {
     color: rgba(255, 255, 255, 0.40);
     text-align: center;
-    font-family: Lato;
+   
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -272,7 +274,7 @@ footer {
 .bonus-title {
     color: rgba(39, 39, 39, 0.80);
     text-align: center;
-    font-family: Lato;
+   
     font-size: 19px;
     font-style: normal;
     font-weight: 600;
@@ -281,7 +283,7 @@ footer {
 
 .delivery-man{
     display:flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
     gap:130px;
     padding-top:80px;
 }
