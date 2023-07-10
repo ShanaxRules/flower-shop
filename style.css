@@ -248,9 +248,40 @@ footer {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
+
+}
+
+.footer-container {
+    padding: 128px 649px 128px 648px;
+}
+
+.delivery {
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-left: 200px;
+    margin-right: 240px;
+    margin-bottom: 128px;
+    
+    
+
+
+}
+
+.bonus-title {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
     
 }
 
-.footer-container{
-    padding:128px 649px 128px 648px;
+.delivery-man{
+    display:flex;
+    justify-content:space-evenly;
+    gap:130px;
+    padding-top:80px;
 }
