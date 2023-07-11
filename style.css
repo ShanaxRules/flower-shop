@@ -16,23 +16,44 @@ body {
 
 }
 
+
+
 #first-header {
     color: #272727;
-    
+
     font-size: 80px;
     font-style: normal;
     font-weight: 800;
-    margin-bottom:0px;
+    margin-bottom: 0px;
 
 }
 
 #first-para {
     color: rgba(39, 39, 39, 0.60);
-    
+
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
 
+}
+
+
+.btn-secondary {
+    border-radius: 8px;
+    background: darkblue;
+    border: none;
+    padding: 20px 43px 20px 43px;
+    color: #FFF;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.btn-secondary:hover {
+    background: yellow;
+    color: black;
 }
 
 .btn-primary {
@@ -41,7 +62,7 @@ body {
     border: none;
     padding: 20px 43px 20px 43px;
     color: #FFF;
-    
+
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -63,7 +84,7 @@ body {
 .feature {
     color: #272727;
     text-align: center;
-    
+
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
@@ -73,7 +94,7 @@ body {
 .feature-para {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-   
+
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -126,7 +147,7 @@ body {
 #first-header2 {
 
     color: #272727;
-    
+
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
@@ -136,7 +157,26 @@ body {
 #first-para2 {
     color: rgba(39, 39, 39, 0.60);
 
-   
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+#first-header3 {
+    color: #272727;
+
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+
+}
+
+#first-para3 {
+    color: rgba(39, 39, 39, 0.60);
+
+
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -153,7 +193,7 @@ body {
 .header-rules {
     color: #272727;
     text-align: center;
-    
+
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
@@ -163,7 +203,7 @@ body {
 .para-rules {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-   
+
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -226,7 +266,7 @@ footer {
 .footerlabel {
     text-align: center;
     color: #E55473;
-    
+
     font-size: 48px;
     font-style: normal;
     font-weight: 800;
@@ -236,7 +276,7 @@ footer {
 .footerpara {
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
-    
+
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -246,7 +286,7 @@ footer {
 .footercopy {
     color: rgba(255, 255, 255, 0.40);
     text-align: center;
-   
+
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -265,8 +305,8 @@ footer {
     margin-left: 200px;
     margin-right: 240px;
     margin-bottom: 128px;
-    
-    
+
+
 
 
 }
@@ -274,16 +314,16 @@ footer {
 .bonus-title {
     color: rgba(39, 39, 39, 0.80);
     text-align: center;
-   
+
     font-size: 19px;
     font-style: normal;
     font-weight: 600;
-    
+
 }
 
-.delivery-man{
-    display:flex;
-    justify-content:space-around;
-    gap:130px;
-    padding-top:80px;
+.delivery-man {
+    display: flex;
+    justify-content: space-around;
+    gap: 130px;
+    padding-top: 80px;
 }
