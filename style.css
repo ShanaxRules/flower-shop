@@ -251,6 +251,17 @@ input[type=email] {
     padding-left: 5px;
 }
 
+input:focus {
+
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 2px solid #E55473;
+    padding-left: 5px;
+
+}
+
 .form {
     display: flex;
     gap: 16px;
